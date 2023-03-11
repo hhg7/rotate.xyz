@@ -16,3 +16,5 @@ required named arguments:
 
 Example: perl rotate.pl -i ethane.xyz -a1 2 -a2 0 -o ethane.rotated.x.xyz
 -rotated 1,3,4 -th 60
+
+requires Data::Printer, Getopt::ArgParse, and Devel::Confess
